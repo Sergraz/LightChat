@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#content {
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1e42a4;
+    border-radius: 7px;
+    padding: 16px;
+    margin-top: 70px;
+}
+.row {
+    margin: 10px 69px;
+}
+
+.row input, .row select {
+    float: right;
+    width: 200px;
+}
+
+#content>form {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.enter {
+    padding-top: 55px;
+}
+.black {
+    color: #000000;
+}
+.red {
+    color: #ff0000;
+}
+.green {
+    color: #1EAD1E;
+}
+.blue {
+    color: #0000ff;
+}
+.gray {
+    color: #746e72;
+}

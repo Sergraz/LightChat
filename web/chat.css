@@ -1,0 +1,95 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#content {
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1e42a4;
+    border-radius: 7px;
+    padding: 16px;
+    margin-top: 70px;
+}
+
+div#hello {
+    margin-bottom: 30px;
+    padding: 10px 0px 0px 10px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+}
+
+#hello button {
+    margin-left: 10px;
+}
+
+div#messages {
+    width: 600px;
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #1e42a4;
+    border-radius: 25px 0 0 0;
+    float: left;
+}
+
+.message span {
+    padding: 2px;
+}
+
+span.date {
+    font-weight: bold;
+}
+
+div#usersBox {
+    overflow-y: scroll;
+    width: 175px;
+    height: 300px;
+    padding-left: 15px;
+}
+
+#usersBox span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+div#input {
+    padding: 10px 0 10px 3px;
+    clear: left;
+}
+
+input#messageinput {
+    width: 430px;
+    height: 25px;
+}
+
+#input button {
+    width: 100px;
+    margin-left: 6px;
+}
+
+#reconnect button {
+    width: 140px;
+    margin-left: 6px;
+}
+
+
+
+.black {
+    color: #000000;
+}
+.red {
+    color: #ff0000;
+}
+.green {
+    color: #1EAD1E;
+}
+.blue {
+    color: #0000ff;
+}
+.gray {
+    color: #746e72;
+}
