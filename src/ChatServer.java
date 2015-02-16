@@ -35,9 +35,10 @@ public class ChatServer {
 
     @OnMessage
     public void onMessage(String message, Session session){
-        message = message.replace("<", "&lt;")
-                .replace(">", "&gt;")
+        message = message
                 .replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
                 .replace("\"", "&#34;")
                 .replace("\'", "&#34;");
         if (!message.equals("")) {

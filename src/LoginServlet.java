@@ -16,9 +16,10 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setCharacterEncoding("UTF-8");
         req.setCharacterEncoding("UTF-8");
-        String user = req.getParameter("user").replace("<", "&lt;")
-                .replace(">", "&gt;")
+        String user = req.getParameter("user")
                 .replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
                 .replace("\"", "&#34;")
                 .replace("\'", "&#34;");
         if (!user.equals("") && !UserMap.getInstance().hasUser(user)) {
